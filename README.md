@@ -2,10 +2,10 @@
 
 Example ios project showing how to use:
 
-* (KunstmaanI18nSwift)[https://github.com/Kunstmaan/i18n-swift] Swift library to translate your IOS application on the fly 
-* (kuma-i18n-strings)[https://github.com/Kunstmaan/i18n-strings] npm package to keep your translations in sync with an online datastore
+* [KunstmaanI18nSwift](https://github.com/Kunstmaan/i18n-swift) Swift library to translate your IOS application on the fly 
+* [kuma-i18n-strings](https://github.com/Kunstmaan/i18n-strings) npm package to keep your translations in sync with an online datastore
 
-Translations are managed in a (google spreadsheet)[https://docs.google.com/spreadsheets/d/1i4U1XCXdTnxSMaB1SPtOWT68RryGgW6bpprFk3Q42Q0/edit?usp=sharing]
+Translations are managed in a [google spreadsheet](https://docs.google.com/spreadsheets/d/1i4U1XCXdTnxSMaB1SPtOWT68RryGgW6bpprFk3Q42Q0/edit?usp=sharing)
 
 ## Installation
 
