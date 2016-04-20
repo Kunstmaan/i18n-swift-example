@@ -1,0 +1,6 @@
+framework module Pods_KunstmaanI18nSwiftExample {
+  umbrella header "Pods-KunstmaanI18nSwiftExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module KunstmaanI18nSwift {
+  umbrella header "KunstmaanI18nSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

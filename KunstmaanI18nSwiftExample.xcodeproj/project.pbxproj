@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22D858734807D16BF8D268F3 /* Pods_KunstmaanI18nSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE02543EE369B7D9970BB454 /* Pods_KunstmaanI18nSwiftExample.framework */; };
+		85676EF01CC65CE600123211 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85676EF21CC65CE600123211 /* Localizable.strings */; };
 		85DE04CA1CC654B800A75FCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DE04C91CC654B800A75FCF /* AppDelegate.swift */; };
 		85DE04CC1CC654B800A75FCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DE04CB1CC654B800A75FCF /* ViewController.swift */; };
 		85DE04CF1CC654B800A75FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DE04CD1CC654B800A75FCF /* Main.storyboard */; };
@@ -15,6 +17,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2041B33E6E2E27537C960F1B /* Pods-KunstmaanI18nSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KunstmaanI18nSwiftExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KunstmaanI18nSwiftExample/Pods-KunstmaanI18nSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		85676EF31CC65CE700123211 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		85676EF41CC65CE800123211 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		85676EF51CC65D0300123211 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		85676EF61CC65D2900123211 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		85676EF81CC65D5E00123211 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		85DE04C61CC654B800A75FCF /* KunstmaanI18nSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KunstmaanI18nSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DE04C91CC654B800A75FCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85DE04CB1CC654B800A75FCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		85DE04D01CC654B800A75FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85DE04D31CC654B800A75FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85DE04D51CC654B800A75FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B8474CA34B6BEF4285B1A6 /* Pods-KunstmaanI18nSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KunstmaanI18nSwiftExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KunstmaanI18nSwiftExample/Pods-KunstmaanI18nSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		CE02543EE369B7D9970BB454 /* Pods_KunstmaanI18nSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KunstmaanI18nSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D858734807D16BF8D268F3 /* Pods_KunstmaanI18nSwiftExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E20533CA22623B7A4AD531B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE02543EE369B7D9970BB454 /* Pods_KunstmaanI18nSwiftExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D43F88A8F7523C276B3427F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2041B33E6E2E27537C960F1B /* Pods-KunstmaanI18nSwiftExample.debug.xcconfig */,
+				98B8474CA34B6BEF4285B1A6 /* Pods-KunstmaanI18nSwiftExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85676EF71CC65D4C00123211 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85676EF81CC65D5E00123211 /* Bridging-Header.h */,
+				85DE04D51CC654B800A75FCF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		85DE04BD1CC654B800A75FCF = {
 			isa = PBXGroup;
 			children = (
 				85DE04C81CC654B800A75FCF /* KunstmaanI18nSwiftExample */,
 				85DE04C71CC654B800A75FCF /* Products */,
+				7D43F88A8F7523C276B3427F /* Pods */,
+				3E20533CA22623B7A4AD531B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,39 @@
 		85DE04C81CC654B800A75FCF /* KunstmaanI18nSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				85DE04DB1CC6562900A75FCF /* Controllers */,
+				85DE04DC1CC6563900A75FCF /* UI */,
+				85DE04DD1CC6564E00A75FCF /* Resources */,
+				85676EF71CC65D4C00123211 /* Supporting Files */,
 				85DE04C91CC654B800A75FCF /* AppDelegate.swift */,
-				85DE04CB1CC654B800A75FCF /* ViewController.swift */,
-				85DE04CD1CC654B800A75FCF /* Main.storyboard */,
-				85DE04D01CC654B800A75FCF /* Assets.xcassets */,
-				85DE04D21CC654B800A75FCF /* LaunchScreen.storyboard */,
-				85DE04D51CC654B800A75FCF /* Info.plist */,
 			);
 			path = KunstmaanI18nSwiftExample;
+			sourceTree = "<group>";
+		};
+		85DE04DB1CC6562900A75FCF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85DE04CB1CC654B800A75FCF /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		85DE04DC1CC6563900A75FCF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				85DE04D21CC654B800A75FCF /* LaunchScreen.storyboard */,
+				85DE04CD1CC654B800A75FCF /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		85DE04DD1CC6564E00A75FCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85DE04D01CC654B800A75FCF /* Assets.xcassets */,
+				85676EF21CC65CE600123211 /* Localizable.strings */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +135,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85DE04D81CC654B800A75FCF /* Build configuration list for PBXNativeTarget "KunstmaanI18nSwiftExample" */;
 			buildPhases = (
+				FF75DCF2CEFED630373C49B9 /* Check Pods Manifest.lock */,
 				85DE04C21CC654B800A75FCF /* Sources */,
 				85DE04C31CC654B800A75FCF /* Frameworks */,
 				85DE04C41CC654B800A75FCF /* Resources */,
+				40ADBEE6C0C5040C2DDED64B /* Embed Pods Frameworks */,
+				75673CDE96FBEB62144C60C5 /* Copy Pods Resources */,
+				85676EFB1CC7635200123211 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -104,8 +172,11 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				fr,
+				nl,
+				de,
+				en,
 			);
 			mainGroup = 85DE04BD1CC654B800A75FCF;
 			productRefGroup = 85DE04C71CC654B800A75FCF /* Products */;
@@ -123,12 +194,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				85DE04D41CC654B800A75FCF /* LaunchScreen.storyboard in Resources */,
+				85676EF01CC65CE600123211 /* Localizable.strings in Resources */,
 				85DE04D11CC654B800A75FCF /* Assets.xcassets in Resources */,
 				85DE04CF1CC654B800A75FCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40ADBEE6C0C5040C2DDED64B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KunstmaanI18nSwiftExample/Pods-KunstmaanI18nSwiftExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75673CDE96FBEB62144C60C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KunstmaanI18nSwiftExample/Pods-KunstmaanI18nSwiftExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85676EFB1CC7635200123211 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Fail build when translations are available\nnode ${SRCROOT}/node_modules/kuma-i18n-strings/index.js sync --source ${SRCROOT}\n\n# Force translation updates when there are new translations available\n#node ${SRCROOT}/node_modules/kuma-i18n-strings/index.js sync --update-files --source ${SRCROOT}";
+		};
+		FF75DCF2CEFED630373C49B9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85DE04C21CC654B800A75FCF /* Sources */ = {
@@ -143,6 +276,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		85676EF21CC65CE600123211 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85676EF31CC65CE700123211 /* fr */,
+				85676EF41CC65CE800123211 /* nl */,
+				85676EF51CC65D0300123211 /* de */,
+				85676EF61CC65D2900123211 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		85DE04CD1CC654B800A75FCF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -247,23 +391,27 @@
 		};
 		85DE04D91CC654B800A75FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2041B33E6E2E27537C960F1B /* Pods-KunstmaanI18nSwiftExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KunstmaanI18nSwiftExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.kunstmaan.KunstmaanI18nSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KunstmaanI18nSwiftExample/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		85DE04DA1CC654B800A75FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B8474CA34B6BEF4285B1A6 /* Pods-KunstmaanI18nSwiftExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KunstmaanI18nSwiftExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.kunstmaan.KunstmaanI18nSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KunstmaanI18nSwiftExample/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +434,7 @@
 				85DE04DA1CC654B800A75FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

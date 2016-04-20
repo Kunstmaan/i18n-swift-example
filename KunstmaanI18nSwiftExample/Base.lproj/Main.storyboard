@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KunstmaanI18nSwiftExample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,86 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUH-Ss-FSX">
+                                <rect key="frame" x="0.0" y="64" width="600" height="321"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a language" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVJ-5b-c87">
+                                        <rect key="frame" x="20" y="150" width="560" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="i18nTextKey" value="labels.hello_world"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5F-x6-7RT">
+                                        <rect key="frame" x="20" y="191" width="560" height="30"/>
+                                        <state key="normal" title="Action"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="i18nDefaultTitleKey" value="actions.cta"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="executeCTA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t20-wH-637"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uyW-Ro-F63">
+                                        <rect key="frame" x="290" y="115" width="21" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="21" id="6Ew-SQ-bcF"/>
+                                            <constraint firstAttribute="height" constant="15" id="XNQ-oI-n8S"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="i18nImageBaseName" value="flag"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="MVJ-5b-c87" firstAttribute="top" secondItem="uyW-Ro-F63" secondAttribute="bottom" constant="20" id="0Oo-r5-cqo"/>
+                                    <constraint firstItem="MVJ-5b-c87" firstAttribute="centerY" secondItem="gUH-Ss-FSX" secondAttribute="centerY" id="D09-Zd-vVt"/>
+                                    <constraint firstItem="S5F-x6-7RT" firstAttribute="top" secondItem="MVJ-5b-c87" secondAttribute="bottom" constant="20" id="Esc-d7-ESw"/>
+                                    <constraint firstItem="MVJ-5b-c87" firstAttribute="leading" secondItem="gUH-Ss-FSX" secondAttribute="leading" constant="20" id="H4c-K6-ZL4"/>
+                                    <constraint firstItem="S5F-x6-7RT" firstAttribute="leading" secondItem="gUH-Ss-FSX" secondAttribute="leading" constant="20" id="IWU-BP-FVg"/>
+                                    <constraint firstItem="uyW-Ro-F63" firstAttribute="centerX" secondItem="gUH-Ss-FSX" secondAttribute="centerX" id="X5A-9J-Kny"/>
+                                    <constraint firstAttribute="trailing" secondItem="S5F-x6-7RT" secondAttribute="trailing" constant="20" id="fId-za-0lg"/>
+                                    <constraint firstAttribute="trailing" secondItem="MVJ-5b-c87" secondAttribute="trailing" constant="20" id="siJ-tj-vhE"/>
+                                </constraints>
+                            </view>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hsH-sd-KWI">
+                                <rect key="frame" x="0.0" y="384" width="600" height="216"/>
+                            </pickerView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yM2-gt-C27">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="uiv-94-Efi"/>
+                                </items>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="i18nTitleKey" value="title"/>
+                                </userDefinedRuntimeAttributes>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gUH-Ss-FSX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="10e-Wd-z5Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yM2-gt-C27" secondAttribute="trailing" constant="-20" id="7US-fi-eXi"/>
+                            <constraint firstItem="hsH-sd-KWI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ATT-Be-lc6"/>
+                            <constraint firstItem="yM2-gt-C27" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Nap-XY-qsT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hsH-sd-KWI" secondAttribute="trailing" constant="-20" id="QSR-kB-iyl"/>
+                            <constraint firstItem="hsH-sd-KWI" firstAttribute="top" secondItem="gUH-Ss-FSX" secondAttribute="bottom" constant="-1" id="SdG-Xv-Qsy"/>
+                            <constraint firstItem="yM2-gt-C27" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kmC-Dd-niz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gUH-Ss-FSX" secondAttribute="trailing" constant="-20" id="lJf-Cc-ur9"/>
+                            <constraint firstItem="gUH-Ss-FSX" firstAttribute="top" secondItem="yM2-gt-C27" secondAttribute="bottom" id="qes-ry-Can"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hsH-sd-KWI" secondAttribute="bottom" id="zjg-v9-Zpk"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="languagePicker" destination="hsH-sd-KWI" id="Cll-zb-ZxH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="263" y="429"/>
         </scene>
     </scenes>
 </document>

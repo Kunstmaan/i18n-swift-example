@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  KunstmaanI18nSwiftExample
+
+  Created by Daan Poron on 19/04/16.
+  Copyright © 2016 Kunstmaan. All rights reserved.
+*/
+
+"title" = "I18n beispiel";
+"labels.hello_world" = "Hallo Welt";
+"actions.cta" = "Aufruf zum Handeln!";
+"alert.title" = "Titel";
+"alert.message" = "Nachricht";
+"alert.action" = "Aktion";

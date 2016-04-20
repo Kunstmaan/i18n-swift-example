@@ -1,0 +1,24 @@
+{
+  "sync": {
+    "provider": "google",
+    "config": {
+        "file-id": "1i4U1XCXdTnxSMaB1SPtOWT68RryGgW6bpprFk3Q42Q0",
+        "columns": {
+          "key": "ios key",
+          "value": ["$$LANG$$"]
+        },
+        "creds": {
+          "type": "service_account",
+          "project_id": "kunstmaani18nswiftexample",
+          "private_key_id": "653358bf769781098ed0af00746cee9df655eded",
+          "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnF17PMwUVI/Wa\n/C1tlNgqDCbDynBBDhBKvwKX9DsaFxpl/Ar2jKmMQEZnkPirtUAmjI3fvAeC2aCn\njIf8lzA/6UdZIv//swbZWf/cZPiBEFqcrEeZWZ42MhUWDvvjh/KyTeDjFzsz/h9I\nTvGeWhnqvwX5ufh4u+XU/zEdKzI2F3gfaq7f7rlMe/4eyPuls7i/F6xQCq0Yp8bU\nSoGvbZEXltqt02OevZwWzLEwH9OR6FwhBNI52kwZ4+RD/hLFFqaqv7z3/NOlWigD\n+hT6Lqvdm7FoguCC46wbxf5XO33IQTcYeMCoF2iEXcIaRPUCjeSqM7OtrOzbhQF6\n0k/qsUQVAgMBAAECggEASh+q9n3qpksyfFOcj301O8nyNG8Mxz9G6PG9Y817noJb\nOpzJ/D/AQzCMSwtb1UhtsewuT+9o4ZpLk6ha9ynWxLNm7FsDd9pikm9DevDr8M1h\ndRlUFepUrjQfeI6jHXfEqWa0+ejnYZQ9KmWi+B1+W83sB7GBUYYBWjDvB8KO3sFn\n9DoGSq7Su8x34Qz11zjvduXcW5k2ZUhhtgt3WChOGGwpRkh79yBK/OWwS8IUy9bl\ngzfEYsUZPvnbE93VwrYJ9GGm9BwZzcXhmkOPUWpdfKDMyCCxex1HKu+Iw7rc2IZC\n2nhtxTAjRN7/ltO14mK6IuvhRT4YqSduAXtSAiC+4QKBgQDm0CCkZG1Ur84V1bBu\nYFMHP+PSKN6FscXX0pdxhdlJvjnIxRxldfyVXblNGL9dHOBJ2nJ7qCH+/FmAGXgE\n+HToXaiqZPqXYtuICXMFwO4VBX3didL6j7h5YqCPpCm2efcr05jp68GOuMdf8u7z\nQtN3cHcJBbrB4/N991uTDxWXTQKBgQC5UyVsZruBT+3zuB22eE9rfIgZpRXAwvQ4\n9+pCycC+bVvAdrsTiszTE9YIeczsSsAnh+xJ/Yd73NrmFW94pfgOmlWxmi0FjYLC\nmaqg1I5pk1o6rH31FEv+78lW0176ud93+65k7dKX17OK/GXpdnY02zgttwAAg5Cj\n/RubKhNL6QKBgQCujuDg8wKsdXkKkl2oXDju1qbZngcMXXIe0ymttWirmK3i5Q+g\nvCaWYBdv8zNmnBwUPp0uX+22Bes6MgjO2Yiw44RXuZ67NwyISX0v8MUeKNUT4tQo\nouEFDE4Z1DGny33fK1wOLTppUd2W9wc3+mYrgmbD8A1Z7aeMsLIU+ed+UQKBgDIL\n1BVcANLA5P9l/xAhmUDrlk1mmWM+wnkH6gkzNou2OIrXBVoXp4xw1OHhEofU/+Ms\n/5BTmNzIHYz4yOuJ1l0LLI0Tl4jiWCd5G+zmubalBj7GChW+727fDj4WQpXuz/w0\nyTmUR8SdiWzFEDhltzI66QbfXm7FGLBQT74tNJzRAoGAOuplI3lcF7jiNP4YS+tY\nkgogjRXSmXOKPmJdqBUpd7FZ43b5Aw1y2hxZS9TgKufuGFxXwPKuI1k6U5kleISe\n5RELPG2a5r+p3HTnDgwMJy4o984XLs+NNndcCYn7B8G0mfBICk4WaDXIZ1W31Rfr\nVD4pltwkzLqH06lGaXGGgSo=\n-----END PRIVATE KEY-----\n",
+          "client_email": "kunstmaani18nswiftexample@appspot.gserviceaccount.com",
+          "client_id": "116648710171577546658",
+          "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+          "token_uri": "https://accounts.google.com/o/oauth2/token",
+          "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+          "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kunstmaani18nswiftexample%40appspot.gserviceaccount.com"
+        }
+     }
+  }
+}
