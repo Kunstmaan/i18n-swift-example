@@ -245,7 +245,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Fail build when translations are available\nnode ${SRCROOT}/node_modules/kuma-i18n-strings/index.js sync --source ${SRCROOT}\n\n# Force translation updates when there are new translations available\n#node ${SRCROOT}/node_modules/kuma-i18n-strings/index.js sync --update-files --source ${SRCROOT}";
+			shellScript = "if test \"${CONFIGURATION}\" != 'Debug'; then\n    # Fail build when translations are available\n    node ${SRCROOT}/node_modules/kuma-i18n-strings/index.js sync --source ${SRCROOT}\nfi\n";
 		};
 		85676EFC1CC787E800123211 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -258,7 +258,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Fail build when new keys are found\nnode ${SRCROOT}/node_modules/kuma-i18n-strings/index.js collect --source ${SRCROOT}";
+			shellScript = "if test \"${CONFIGURATION}\" = 'Debug'; then\n    # Update files with new translation keys\n    node ${SRCROOT}/node_modules/kuma-i18n-strings/index.js collect --source ${SRCROOT} --update-files\nelse\n    # Fail build when new keys are found\n    node ${SRCROOT}/node_modules/kuma-i18n-strings/index.js collect --source ${SRCROOT}\nfi";
 		};
 		FF75DCF2CEFED630373C49B9 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
