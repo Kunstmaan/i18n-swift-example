@@ -141,6 +141,7 @@
 				85DE04C41CC654B800A75FCF /* Resources */,
 				40ADBEE6C0C5040C2DDED64B /* Embed Pods Frameworks */,
 				75673CDE96FBEB62144C60C5 /* Copy Pods Resources */,
+				85676EFC1CC787E800123211 /* ShellScript */,
 				85676EFB1CC7635200123211 /* ShellScript */,
 			);
 			buildRules = (
@@ -245,6 +246,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Fail build when translations are available\nnode ${SRCROOT}/node_modules/kuma-i18n-strings/index.js sync --source ${SRCROOT}\n\n# Force translation updates when there are new translations available\n#node ${SRCROOT}/node_modules/kuma-i18n-strings/index.js sync --update-files --source ${SRCROOT}";
+		};
+		85676EFC1CC787E800123211 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Fail build when new keys are found\nnode ${SRCROOT}/node_modules/kuma-i18n-strings/index.js collect --source ${SRCROOT}";
 		};
 		FF75DCF2CEFED630373C49B9 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

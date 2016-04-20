@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '35CAE6672598BA554AC99483'
+               BlueprintIdentifier = '96B045F267F804B3608BAFDB'
                BlueprintName = 'KunstmaanI18nSwift'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'KunstmaanI18nSwift.framework'>
