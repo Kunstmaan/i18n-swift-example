@@ -20,4 +20,5 @@ $ npm install
 
 - [x] UIViews are translated via the Interface builder
 - [x] On the fly update of UIViews when the language changes
-- [x] Building the project fails when new translations are available
+- [x] Debug builds of the project will also collect all untranslated keys and add them to the Localizable.strings file
+- [x] Production build of the project will fail when new translations are available or when untranslated keys are found
