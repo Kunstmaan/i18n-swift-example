@@ -2,11 +2,7 @@ PODS:
   - KunstmaanI18nSwift (1.0.0)
 
 DEPENDENCIES:
-  - KunstmaanI18nSwift (from `/Volumes/Dev/libraries/KunstmaanI18nSwift`)
-
-EXTERNAL SOURCES:
-  KunstmaanI18nSwift:
-    :path: /Volumes/Dev/libraries/KunstmaanI18nSwift
+  - KunstmaanI18nSwift
 
 SPEC CHECKSUMS:
   KunstmaanI18nSwift: ce5a6ca3a3c6c0db4a465e62ad430a71a8dddcdf

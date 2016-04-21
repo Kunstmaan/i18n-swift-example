@@ -1,1 +1,1 @@
-../../../../../KunstmaanI18nSwift/KunstmaanI18nSwift/KunstmaanI18nSwift.h
+../../../KunstmaanI18nSwift/KunstmaanI18nSwift/KunstmaanI18nSwift.h
